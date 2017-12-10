@@ -28,7 +28,7 @@ public class KinesisService {
     @Value("${aws.firehose.stream.name}")
     private String streamName;
 
-    @Value("${aws.accessKey}")
+    @Value("${aws.accessKeyId}")
     private String accessKey;
 
     @Value("${aws.secretKey}")
